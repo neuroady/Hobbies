@@ -31,7 +31,7 @@ def genNonogram(
     print("Generating nonogram...")
     if getResult:
         print("Saving result...")
-        cv2.imwrite(basePath + "solutions_bw/"+"Pic_" + fileName, processed)
+        cv2.imwrite(basePath + "solutions/"+"Pic_" + fileName, processed)
     if getPuzzle:
         print("Getting puzzle...")
         bgColor = getBackgroundColor(processed)
@@ -39,7 +39,7 @@ def genNonogram(
         height, width = processed.shape[:2]
         product = drawGrid(clues, (width, height), bgColor)
         product = drawClues(np.float32(product), clues, (width, height))
-        cv2.imwrite(basePath + "Output_bw/"+ "Nonogram_" + fileName, product)
+        cv2.imwrite(basePath + "output/"+ "Nonogram_" + fileName, product)
     print("Done!\n\n")
 
 
