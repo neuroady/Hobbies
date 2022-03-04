@@ -1,6 +1,6 @@
 
 # NonogramMaker
-### forked from (@LyndonFan)[https://github.com/LyndonFan]'s [NonogramMaker](https://github.com/LyndonFan/NonogramMaker)
+### NOTE: forked from [@LyndonFan](https://github.com/LyndonFan)'s [NonogramMaker](https://github.com/LyndonFan/NonogramMaker)
 This application turns a picture into a nonogram: black and white or coloured.
 
 (link to introductory video: <a href="https://youtu.be/kH7u9wnF9EY">https://youtu.be/kH7u9wnF9EY</a>)
