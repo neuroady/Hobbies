@@ -1,4 +1,6 @@
+
 # NonogramMaker
+### forked from (@LyndonFan)[https://github.com/LyndonFan]'s [NonogramMaker](https://github.com/LyndonFan/NonogramMaker)
 This application turns a picture into a nonogram: black and white or coloured.
 
 (link to introductory video: <a href="https://youtu.be/kH7u9wnF9EY">https://youtu.be/kH7u9wnF9EY</a>)
@@ -26,5 +28,3 @@ This application turns a picture into a nonogram: black and white or coloured.
     positive integer to denote the number of colors that should appear in your nonogram IN ADDITION to your background color. A 0 or negative integer means the algorithm will choose this number for you. (default = 0)
   - `-r [GETRESULT], --getResult [GETRESULT]`
     boolean to indicate whether you want a separate file containing the finished picture (default = True)
-# Hobbies
-# Hobbies
