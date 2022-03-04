@@ -6,7 +6,9 @@ Run `CreateNono.sh` to create nonograms of images present in `./images/` folder.
 Check sample [input](https://github.com/neuroady/Hobbies/tree/main/NonogramPuzzle/images) and [output](https://github.com/neuroady/Hobbies/tree/main/NonogramPuzzle/output)
 
 **Warning**: Images with no background will color the Nonogram space (this issue will be resolved in future commits).
+
 Dependencies: CV2, ...
+
 -----
 
 This application turns a picture into a nonogram: black and white or coloured.
