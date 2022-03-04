@@ -26,12 +26,12 @@ def genNonogram(
     basePath = fileName.split("/")
     fileName = basePath[-1]
     basePath = "".join(x + "/" for x in basePath[:-1])
+    cwd = getcwd()
 
-    print(basePath)
     print("Generating nonogram...")
     if getResult:
         print("Saving result...")
-        cv2.imwrite(basePath + "solutions/"+"Pic_" + fileName, processed)
+        cv2.imwrite(cwd+ "/solutions/"+"Pic_" + fileName, processed)
     if getPuzzle:
         print("Getting puzzle...")
         bgColor = getBackgroundColor(processed)
@@ -39,7 +39,7 @@ def genNonogram(
         height, width = processed.shape[:2]
         product = drawGrid(clues, (width, height), bgColor)
         product = drawClues(np.float32(product), clues, (width, height))
-        cv2.imwrite(basePath + "output/"+ "Nonogram_" + fileName, product)
+        cv2.imwrite(cwd+"/output/"+ "Nonogram_" + fileName, product)
     print("Done!\n\n")
 
 
