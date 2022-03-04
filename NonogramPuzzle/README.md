@@ -3,7 +3,7 @@
 ### NOTE: forked from [@LyndonFan](https://github.com/LyndonFan)'s [NonogramMaker](https://github.com/LyndonFan/NonogramMaker). I only made a few minor changes.  
 Run `CreateNono.sh` to create nonograms of images present in `./images/` folder. Nonograms will be generated with default settings (see below). To change Nonogram encoding properties use [@LyndonFan](https://github.com/LyndonFan)'s guide below. You can choose colored or black and white Nonograms. You can also limit the size and number of colors in the Nonograms. Output folder is `./images/outputs/` and solutions are exported in `./images/solutions/`. 
 
-Check sample input and output in [./images/](https://github.com/neuroady/Hobbies/tree/main/NonogramPuzzle/images)
+Check sample [input](https://github.com/neuroady/Hobbies/tree/main/NonogramPuzzle/images) and [output](https://github.com/neuroady/Hobbies/tree/main/NonogramPuzzle/output)
 
 **Warning**: Images with no background will color the Nonogram space (this issue will be resolved in future commits).
 
