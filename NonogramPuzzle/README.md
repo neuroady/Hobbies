@@ -1,6 +1,10 @@
 
 # NonogramMaker
 ### NOTE: forked from [@LyndonFan](https://github.com/LyndonFan)'s [NonogramMaker](https://github.com/LyndonFan/NonogramMaker). I only made a few minor changes.  
+Run `CreateNono.sh` to create nonograms of images present in `./images/` folder. Nonograms will be generated with default settings (see below). To change Nonogram encoding properties use [@LyndonFan](https://github.com/LyndonFan)'s guide below. Output folder is `./outputs/` and solutions are exported in `./solutions/`.
+
+-----
+
 This application turns a picture into a nonogram: black and white or coloured.
 
 (link to introductory video: <a href="https://youtu.be/kH7u9wnF9EY">https://youtu.be/kH7u9wnF9EY</a>)
