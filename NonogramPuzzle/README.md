@@ -8,6 +8,11 @@ Check sample [input](https://github.com/neuroady/Hobbies/tree/main/NonogramPuzzl
 **Warning**: Images with no background will color the Nonogram space (this issue will be resolved in future commits).
 
 Dependencies: CV2, ...
+Todo:
+- [x] Nonogram Maker
+- [ ] Nonogram maker for images with no BG
+- [ ] Nonogram solver
+- [ ] PDF puzzle book exporter
 
 -----
 
